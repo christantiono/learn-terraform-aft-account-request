@@ -30,7 +30,7 @@ module "sandbox2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "tantionochris@gmail.com"
+    AccountEmail              = "chris.tantiono@icscompute.com"
     AccountName               = "aft-demo-clientA"
     ManagedOrganizationalUnit = "client A"
     SSOUserEmail              = "tantionochris@gmail.com"
