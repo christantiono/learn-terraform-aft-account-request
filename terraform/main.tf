@@ -2,16 +2,16 @@ module "sandbox2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "tantionochris+work1@gmail.com"
-    AccountName               = "aft-demo-clientA"
+    AccountEmail              = "tantionochris+work123@gmail.com"
+    AccountName               = "aft-demo-client123"
     ManagedOrganizationalUnit = "client A"
     SSOUserEmail              = "tantionochris@gmail.com"
     SSOUserFirstName          = "client"
-    SSOUserLastName           = "a"
+    SSOUserLastName           = "123"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT-Demo"
+    "Learn Tutorial" = "AFT-Demo-123"
   }
 
   change_management_parameters = {
